@@ -40,7 +40,7 @@ EOT
 }
 
 # method calls
-my $cgi = CGI->new();
+my $cgi = CGI->new;
 tie my %cgi, 'Tie::Sub', sub { ## no critic (Ties)
     my ($method, @params) = @_;
 
