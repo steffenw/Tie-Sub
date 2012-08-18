@@ -1,9 +1,10 @@
-<SOFTPKG NAME="Tie-Sub" VERSION="0,09,0,0">
-    <TITLE>Tie-Sub</TITLE>
+<SOFTPKG NAME="Tie-Sub" VERSION="1.000">
     <ABSTRACT>Tie::Sub - Tying a subroutine, function or method to a hash</ABSTRACT>
     <AUTHOR>Steffen Winkler &lt;steffenw at cpan.org&gt;</AUTHOR>
     <IMPLEMENTATION>
-        <DEPENDENCY NAME="Params-Validate" VERSION="0,0,0,0" />
-        <CODEBASE HREF="PPM-Tie-Sub-0.09.tar.gz" />
+        <REQUIRE NAME="English::" VERSION="0" />
+        <REQUIRE NAME="Params::Validate" VERSION="0" />
+        <REQUIRE NAME="Carp::" VERSION="0" />
+        <CODEBASE HREF="PPM-Tie-Sub-1.000.tar.gz" />
     </IMPLEMENTATION>
 </SOFTPKG>
