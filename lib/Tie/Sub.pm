@@ -1,4 +1,4 @@
-package Tie::Sub;
+package Tie::Sub; ## no critic (TidyCode)
 
 use strict;
 use warnings;
